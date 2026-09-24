@@ -1,70 +1,32 @@
-# Project Name
+# [Venture name]
 
-> Replace everything in this file with your own project. This is a template.
-> Week 3's communication exercise is writing this README, and the test is
-> simple: someone not on your team should be able to read it and understand
-> what you are building.
+[One sentence: what this app does, and for whom.]
 
-**One sentence on what this is.** Who is it for, and what problem does it solve?
+## The problem
 
-## The Problem
+[Your problem statement. See `docs/problem-statement.md`.]
 
-A short paragraph. What is hard today for the person you are building for, and
-how do they cope without you? This comes straight from your Week 2 problem
-statement, so you should already have it.
+## Who it is for
 
-## What It Does
+[The specific user. Not "students": which students, doing what?]
 
-Three to five bullets. Keep them concrete.
+## What it does (and does not do)
 
-- ...
-- ...
-- ...
+[Two or three in-scope items. Link to `docs/scope.md` for the full list.]
 
-## Getting It Running
+## How to run it
 
-You need Python 3.11 or newer. If you do not have it, or you are not sure,
-read `docs/environment-setup.md` first.
-
-**macOS or Linux**
+You need [uv](https://docs.astral.sh/uv/) installed. Then, from this folder:
 
 ```
-bash setup.sh
-source .venv/bin/activate
-python src/app.py
+uv sync
+uv run main.py
 ```
 
-**Windows (PowerShell)**
+## Team
 
-```
-.\setup.ps1
-.\.venv\Scripts\Activate.ps1
-python src\app.py
-```
+[Names and roles. Delete this section if the repo will be public.]
 
-You should see a greeting printed. That means your environment works.
+## Status
 
-## Running the Tests
-
-```
-pytest
-```
-
-## How We Work
-
-- `docs/git-workflow.md` is the branch, commit, pull request loop. Follow it.
-- Never commit secrets. API keys, passwords, and `.env` files stay out of the
-  repository. The `.gitignore` covers the common cases, but it cannot save you
-  from a key pasted into the code.
-- Push your work before the Tuesday evening deadline so facilitators can see
-  where you are ahead of Wednesday's review.
-
-## The Team
-
-| Name | Role | Contact |
-|---|---|---|
-| | | |
-
-## Venture Lead
-
-Who is the client for this project, and how do you reach them?
+[Where the project is this week: what works, what is next.]
