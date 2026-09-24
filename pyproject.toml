@@ -1,0 +1,7 @@
+[project]
+name = "venture-app"
+version = "0.1.0"
+description = "UB Tech Studio venture project. Replace this line with one sentence about what your app does."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
